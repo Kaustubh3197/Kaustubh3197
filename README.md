@@ -30,7 +30,7 @@ ROS pipeline that filters radar detections by confidence and distance, shows car
 `ROS` `Python` `RViz` `ETSI ITS CPM`
 
 **[Gesture-Control & Obstacle-Avoiding Car](https://github.com/Kaustubh3197/gesture-control-obstacle-avoiding-car)**<br>
-Arduino car driven by a wireless accelerometer glove over RF433, plus an autonomous ultrasonic obstacle-avoidance mode, with fixes for gesture states the original design could never reach.<br>
+Arduino car driven by a wireless accelerometer glove over RF433, plus an autonomous ultrasonic obstacle-avoidance mode, with fixes for gesture states.<br>
 `Arduino` `C++` `Embedded`
 
 #### ✅ Test automation & CI/CD
