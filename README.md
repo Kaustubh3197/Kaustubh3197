@@ -22,11 +22,11 @@ pipelines, and the in-vehicle middleware that connects them, backed by automated
 #### 🚗 Automotive & robotics
 
 **[Middleware Comparison for ADAS / SDV](https://github.com/Kaustubh3197/middleware-comparison-thesis)** · *Master's thesis*<br>
-Scored 8 in-vehicle protocols with a multi-criteria decision analysis, then benchmarked the top three (**OpenDDS, vsomeip, Zenoh**) on an identical 7-node simulated ADAS workload to isolate middleware-only performance.<br>
+Scored 8 in-vehicle protocols with a multi-criteria decision analysis, then benchmarked the top three (**OpenDDS, vSomeIP, Zenoh**) on the exact same simulated ADAS setup, so any difference in results comes from the middleware alone.<br>
 `C++` `Python` `OpenDDS` `SOME/IP` `Zenoh`
 
 **[V2X CPM Perception & Visualization Pipeline](https://github.com/Kaustubh3197/v2x-cpm-perception)**<br>
-ROS pipeline that parses radar data into **ETSI ITS Collective Perception Messages** (~130 custom message definitions), filters false detections by confidence and distance, and renders cars and pedestrians live in RViz.<br>
+ROS pipeline that filters radar detections by confidence and distance, shows cars and pedestrians live in RViz, and converts them into **ETSI ITS Collective Perception Messages** (~130 custom message definitions).<br>
 `ROS` `Python` `RViz` `ETSI ITS CPM`
 
 **[Gesture-Control & Obstacle-Avoiding Car](https://github.com/Kaustubh3197/gesture-control-obstacle-avoiding-car)**<br>
@@ -50,7 +50,7 @@ Flask app shipped by a gated six-stage pipeline (lint → tests on 3 Python vers
 | Area | Tools |
 |---|---|
 | **Languages** | C++ · Python |
-| **Automotive & robotics** | ROS · RViz · OpenDDS · SOME/IP (vsomeip) · Eclipse Zenoh · ETSI ITS · Arduino |
+| **Automotive & robotics** | ROS · RViz · OpenDDS · SOME/IP (vSomeIP) · Eclipse Zenoh · ETSI ITS · Arduino |
 | **Testing** | pytest · Playwright · Selenium · Page Object Model |
 | **CI/CD & DevOps** | GitHub Actions · Docker · GitHub Container Registry · Render · Git |
 
